@@ -8,6 +8,7 @@ class CoinsController < ApplicationController
 
   # GET /coins/1 or /coins/1.json
   def show
+    #ssss
   end
 
   # GET /coins/new
