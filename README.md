@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# cryptoWallet
+Cadastro de moedas digitais e suas respectivas atualizações. 
+>>>>>>> d409e6418422caa5a2836b0a872235649db5450e
