@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3997c8fa-e73c-4495-9fa6-0589c5d4fdf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/arquivo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/crypto_wallet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/coins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/coins_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/arquivo.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/arquivo.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
