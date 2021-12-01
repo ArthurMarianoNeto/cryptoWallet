@@ -6,4 +6,5 @@ module ApplicationHelper
     def nome_aplicacao
         "Crypto Wallet APP"
     end
+    
 end
