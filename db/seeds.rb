@@ -25,4 +25,10 @@ Coin.create!(
     url_image: "https://www.iconpacks.net/icons/2/free-dash-coin-icon-2219-thumb.png"
 )
 
+Coin.create!(
+    description: "Coffe Coin",
+    acronym: "CFF",
+    url_image: "https://static.vecteezy.com/system/resources/previews/001/209/429/non_2x/coffee-png.png"
+)
+
 puts "Moedas cadastradas com sucesso!"
