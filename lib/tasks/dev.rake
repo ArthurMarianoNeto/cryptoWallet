@@ -6,8 +6,9 @@ namespace :dev do
       show_spinner("Agando banco de dados...") {%x(rails db:drop)} 
       show_spinner("Criando banco de dados...") {%x(rails db:create)}
       show_spinner("Migrando banco de dados...") {%x(rails db:migrate)}
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
+      %x(rails dev:add_coins)
+
     else  
       puts "Você não está em ambiente de desenvolvimento!"
   end
@@ -20,22 +21,26 @@ coins = [
             {
             description: "Bitcoin",
             acronym: "BTC",
-            url_image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bitcoin.com_logo.png"
+            url_image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bitcoin.com_logo.png",
+            mining_type: MiningType.find_by(acronym: "PoW")
             },
             {
             description: "Ethereum",
             acronym: "ETH",
-            url_image: "https://download.logo.wine/logo/Ethereum/Ethereum-Logo.wine.png"
+            url_image: "https://download.logo.wine/logo/Ethereum/Ethereum-Logo.wine.png",
+            mining_type: MiningType.all.sample
             },
             { 
             description: "Dash Coin",
             acronym: "DSH",
-            url_image: "https://www.iconpacks.net/icons/2/free-dash-coin-icon-2219-thumb.png"
+            url_image: "https://www.iconpacks.net/icons/2/free-dash-coin-icon-2219-thumb.png",
+            mining_type: MiningType.all.sample
             },
             { 
             description: "Coffe Coin",
             acronym: "CFF",
-            url_image: "https://static.vecteezy.com/system/resources/previews/001/209/429/non_2x/coffee-png.png"
+            url_image: "https://static.vecteezy.com/system/resources/previews/001/209/429/non_2x/coffee-png.png",
+            mining_type: MiningType.all.sample
             }
         ]
 
