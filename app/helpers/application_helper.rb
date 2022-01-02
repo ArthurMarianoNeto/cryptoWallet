@@ -1,6 +1,5 @@
 module ApplicationHelper
-    def
-        locale(locale)
+    def locale
         I18n.locale == :en ? "Estados Unidos" : "Português do Brasil zil zil"
     end
 
@@ -10,7 +9,7 @@ module ApplicationHelper
 
     def nome_aplicacao
         "Crypto Wallet APP"
-    end
+    end 
 
     def ambiente_rails 
         if Rails.env.development?
