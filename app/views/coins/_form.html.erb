@@ -11,31 +11,37 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :description %>
-    <%= form.text_field :description %>
+    <%= form.text_field :description, class:"form-control", placeholder:"Ex: Bitcoin" %>
   </div>
+  </br>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
+    <%= form.text_field :acronym, class:"form-control", placeholder:"Ex: BTC" %> 
   </div>
-
-  <div class="field">
+  </br>
+  <div class="form-group">
     <%= form.label :url_image %>
-    <%= form.text_field :url_image %>
+    <%= form.text_field :url_image, class:"form-control", placeholder:"http://img.ur/bitcoin.png" %> 
   </div>
-
-<div class="field">
+  </br>
+<div class="form-group">
   <%= form.label :MiningType %>
   <%= form.select("mining_type_id", 
     @mining_type_options,  
-    {include_blank: "Selecione"}) %> 
+    {include_blank: "Selecione"},  class:"form-control") %> 
 </div>
-
+  </br>
 
 
   <div class="actions">
-    <%= form.submit %>
+
+  </br>
+
+    <%= form.submit nil, class:"btn btn-primary"  %>
+
   </div>
 <% end %>
+</br>
