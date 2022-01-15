@@ -21,6 +21,7 @@ __metadata:
     bootstrap: ^5.1.3
     jquery: ^3.6.0
     notify-js-legacy: ^0.4.1
+    popper.js: ^1.16.1
     propper: ^1.0.4
   languageName: unknown
   linkType: soft
@@ -36,6 +37,13 @@ __metadata:
   version: 0.4.1
   resolution: "notify-js-legacy@npm:0.4.1"
   checksum: b880271e66461fba6e754656bb3a8602696ce00fe8caadeef351e9fc1cc222c223f05e9d2f3a56867311a6078f00ee1eab40020de9a86d7b8a367a39d1f5a6d8
+  languageName: node
+  linkType: hard
+
+"popper.js@npm:^1.16.1":
+  version: 1.16.1
+  resolution: "popper.js@npm:1.16.1"
+  checksum: c56ae5001ec50a77ee297a8061a0221d99d25c7348d2e6bcd3e45a0d0f32a1fd81bca29d46cb0d4bdf13efb77685bd6a0ce93f9eb3c608311a461f945fffedbe
   languageName: node
   linkType: hard
 
