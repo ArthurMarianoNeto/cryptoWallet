@@ -7,7 +7,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -15,8 +14,23 @@
   </head>
 
   <body>
-  <h2>Layout Superior - <%= params[:controller] %></h2>
-    <%= yield %>
-    <h2>Rodapé</h2>
+    <div class="container-fluid">
+
+        <ul class="nav justify-content-end">
+          
+          <li class="nav-item">
+              <%= link_to 'Português', root_path(locale: 'pt-BR'), class:"nav-link" %>
+          </li>
+
+          <li class="nav-item">
+              <%= link_to 'English', root_path(locale: 'en'), class:"nav-link"  %>
+          </li>
+
+        </ul>
+
+      <%= yield %>
+
+    </div>
   </body>
 </html>
+
