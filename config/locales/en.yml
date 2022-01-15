@@ -46,6 +46,7 @@ en:
   new:
     coin: "New Coin"
     mining_type: "New Mining Type"
+    home_page: "Home Page"
   editing:
     coin: "Editing Coin"
     mining_type: "Editing Mining Type"
