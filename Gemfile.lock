@@ -1,10 +1,4 @@
 GEM
-  remote: https://rails-assets.org/
-  specs:
-    rails-assets-jQuery (3.4.1)
-    rails-assets-notifyjs (0.4.2)
-
-GEM
   remote: https://rubygems.org/
   specs:
     actioncable (6.1.4.1)
@@ -234,8 +228,6 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.1)
-  rails-assets-jQuery!
-  rails-assets-notifyjs!
   rails-i18n (~> 7.0.0)
   sass-rails (>= 6)
   selenium-webdriver
